@@ -1,0 +1,73 @@
+body {
+    background-color: #000000;
+    color: #c4f000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+header {
+        background-color: #4d5340;
+        color: #e9ec13;
+        text-align: center;
+        padding: 20px;
+        }
+section {
+        padding: 20px; /* espaciado para la sección de 20 pixeles */}
+footer {
+        background-color: #4d5340; /* Color de fondo del footer */
+        color: #c4d107;
+        padding: 20px 0; 
+        text-align: center;
+    }
+.footer-content {
+        max-width: 800px; /* Ancho máximo del contenido del footer */
+        margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+        text-align: center; }
+
+.formato {
+        text-align: center; /* Centra el texto */
+        font-weight: bold; /* Pone el texto en negrita */
+        font-style: italic; /* Pone el texto en cursiva */
+      }
+    
+nav {
+        background-color: #4d5340;
+        padding: 10px;
+        }
+nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        }
+nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+        }
+nav ul li a {
+        color: #bcce21;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        }
+nav ul li a:hover {
+        background-color: #465e4d;
+        }
+
+.logo {
+            display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+            margin: 0 auto; /* Centrar las imágenes horizontalmente */
+            max-width: 10%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+            border: 3px solid #a2bd0a; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+            border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+            
+        }
+.estilizada {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+            margin: 0 auto; /* Centrar las imágenes horizontalmente */
+            max-width: 20%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+            border: 3px solid #c7db12; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+            border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+            
